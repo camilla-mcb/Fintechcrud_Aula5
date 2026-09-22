@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './menu.component.css'
 })
 export class MenuComponent {
+  itensMenu = [
+    {label: 'Início', link: ''},
+    {label: 'Clientes', link: 'clientes'},
+    {label: 'Sobre', link: 'sobre'}
+  ]
 
 }
